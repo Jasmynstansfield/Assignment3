@@ -27,12 +27,12 @@ public class Bonus {
 			Random randGenerator = new Random();
 			randomNum = randGenerator.nextInt(9) + 1;
 			
-			System.out.println("Guess a number between 1 and 10");
+			System.out.println("Guess a number between 1 and 10 (If you wish to end the game, press -1)");
 			userNum = userInput.nextInt();
 		
 			if (userNum != randomNum) {
 			
-				System.out.println("Sorry, the correct number is " + randomNum + ". ");
+				System.out.println("Sorry, the correct number is " + randomNum + ".");
 			}
 		
 			else if (userNum == -1){
