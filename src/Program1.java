@@ -1,15 +1,12 @@
-import java.util.Scanner;
-
-/**
- * 
- */
-
-/**
+/*
  * j.stansfield
  * Mr. Hardman
  * Assignment 3, Program 1
  * October 26, 2015
  */
+
+import java.util.Scanner;
+
 public class Program1 {
 
 	/**
